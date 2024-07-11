@@ -1,0 +1,23 @@
+body {
+    color: black;
+    font-size: 16px;
+    font-weight: 200px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.link {
+    color: green;
+}
+
+.instructions {
+    color: red;
+}
+
+h1.food-name {
+    text-align: center;
+}
+
+img {
+    height: 200px;
+    width: auto;
+}
