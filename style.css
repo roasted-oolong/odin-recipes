@@ -1,3 +1,9 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
     color: black;
     font-size: 16px;
@@ -5,7 +11,25 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+.section-recipes {
+    text-align: center;
+}
+
+.food-card {
+    display: inline-block;
+    width: auto;
+    text-align: center;
+    padding: 24px;
+    margin: 24px 8px;
+    border: black 2px solid;
+}
+
 .link {
+    color: black;
+    padding: 4px auto;
+}
+
+.link:hover {
     color: green;
 }
 
@@ -13,8 +37,9 @@ body {
     color: red;
 }
 
-.title {
+.section-title {
     text-align: center;
+    margin: 64px auto;
 }
 
 h1.food-name {
